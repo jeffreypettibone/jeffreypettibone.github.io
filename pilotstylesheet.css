@@ -1,0 +1,663 @@
+/*beginning of top navigation for each page*/
+.topnav {
+	background-color: rgba(0,0,0,.85);
+	overflow: hidden;
+}
+.topnav a {
+  margin: 0;
+  padding: 0;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1.2% 1.75%;
+  text-decoration: none;
+  float: right;
+}
+.topnav a:hover {
+	background-color: #585858;
+}
+.topnav a.active {
+	background-color: #1E90FF;
+	color: white;
+}
+/*end of top navigation for each page*/
+/*beginning of botton navigation for each page*/
+.navbar {
+	background-color: rgba(0,0,0,.85);
+	overflow: hidden;
+}
+.navbar a {
+	margin: 0;
+	padding: 0;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1.2% 1.75%;
+	text-decoration: none;
+	float: right;
+}
+.navbar a:hover {
+	background-color: #585858;
+}
+.navbar a.active {
+  background-color: #1E90FF;
+  color: white;
+}
+/*end of bottom navigation for each page*/
+body, html {
+	margin: 0;
+    height: 100%;
+}
+body {
+	background-color: #FFFFFF;
+	font-family: "Arial", Helvetica, sans-serif;
+	color:#000000;
+}
+/*customized heading (h1) bars for each page*/
+sub {
+	font-size: 43%;
+	font-variant: normal;
+	font-stretch: semi-condensed;
+}
+#home-heading {
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-size: 450%;
+	padding: 10.9% 120px;
+	margin: auto;
+	color:#FFFFFF;
+	text-align:center;
+	text-shadow: 1px 0px 3px #CCCCCC;
+	letter-spacing: 3px;
+	background-image: url(images/home_image.jpg);
+	background-size: cover;
+	background-position: top;
+}
+#about-heading {
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-size: 450%;
+	padding: 10% 120px;
+	margin: auto;
+	color:#FFFFFF;
+	text-align:center;
+	text-shadow: 1px 0px 3px #CCCCCC;
+	letter-spacing: 3px;
+	background-image: url(images/aboutme_image.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#skills-heading {
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-size: 450%;
+	padding: 10.75% 120px;
+	margin: auto;
+	color:#FFFFFF;
+	text-align:center;
+	text-shadow: 1px 0px 3px #CCCCCC;
+	letter-spacing: 3px;
+	background-image: url(images/skills_image.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#portfolio-heading {
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-size: 450%;
+	padding: 10% 120px;
+	margin: auto;
+	color:#FFFFFF;
+	text-align:center;
+	text-shadow: 1px 0px 3px #CCCCCC;
+	letter-spacing: 3px;
+	background-image: url(images/portfolio_image.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#resume-heading {
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-size: 450%;
+	padding: 5.2% 120px;
+	margin: auto;
+	color:#FFFFFF;
+	text-align:center;
+	text-shadow: 1px 0px 3px #CCCCCC;
+	letter-spacing: 3px;
+	background-image: url(images/resume_image.jpg);
+	background-size: cover;
+	background-position: top;
+}
+#contact-heading {
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-size: 450%;
+	padding: 10.8% 120px;
+	margin: auto;
+	color:#FFFFFF;
+	text-align:center;
+	text-shadow: 1px 0px 3px #CCCCCC;
+	letter-spacing: 3px;
+	background-image: url(images/contact_image.jpg);
+	background-size: cover;
+	background-position: center;
+}
+/*end of customized heading (h1) bars for each page*/
+p {
+	font-family: "Arial", sans-serif;
+	text-align: center;
+	margin-left: 180px;
+	margin-right: 180px;
+	font-size: 140%;
+	padding: 25px;
+	line-height: 30px;
+}
+ul {
+	margin-left: 280px;
+	line-height: 30px;
+	font-size: 140%;
+	font-family: "Arial", sans-serif;
+}
+ol {
+	margin-left: 20px;
+	line-height:30px;
+}
+#css {
+	padding: 0%;
+}
+#links {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	overflow: hidden;
+	margin-right: 400px;
+}
+#possess {
+	text-align: left;
+}
+#purpose {
+	background-color: #D8D8D8;
+	margin: 0px;
+	text-align: left;
+	font-size: 112.5%;
+}
+#lifestory {
+	font-size: 112.5%;
+	text-align: left;
+	background: #F3F3F3;
+	margin: 0px;
+	padding-left: 7%;
+	padding-right: 45.5%;
+}
+/*all of the following are portfolio based items*/
+#portfolio {
+	color: #FFFFFF;
+}
+#education {
+	text-align: left;
+	font-size: 155%;
+	padding: 0% 15%;
+}
+#teachingexperience {
+	text-align: left;
+	font-size: 155%;
+	padding: 0% 15%;
+}
+#teaching2 {
+	margin-left: 20%;
+	font-size: 105%;
+}
+#school1 {
+	margin-left: 4%;
+	font-size: 105%;
+}
+#school2 {
+	margin-left: 4%;
+	font-size: 105%;
+}
+#workexperience {
+	text-align: left;
+	font-size: 155%;
+	padding: 0% 15%;
+}
+#worklist1 {
+	margin-left: 20%;
+	font-size: 105%;
+}
+#job1 {
+	margin-left: 4%;
+	font-size: 105%;
+}
+#resposiblities1 {
+	margin-left: 4%;
+	font-size: 105%;
+}
+#worklist2 {
+	margin-left: 20%;
+	font-size: 105%;
+}
+#job2 {
+	margin-left: 4%;
+	font-size: 105%;
+}
+#resposiblities2 {
+	margin-left: 4%;
+	font-size: 105%;
+}
+#worklist3 {
+	margin-left: 20%;
+	font-size: 105%;
+}
+#job3 {
+	margin-left: 4%;
+	font-size: 105%;
+}
+#resposiblities3 {
+	margin-left: 4%;
+	font-size: 105%;
+}
+#organizations {
+	text-align: left;
+	font-size: 155%;
+	padding: 0% 15%;
+}
+#educationlist1 {
+	font-size: 105%;
+}
+#educationlist2 {
+	font-size: 105%;
+}
+#edlist1 {
+	margin-left: 4%;
+	font-size: 105%;
+}
+#edlist2 {
+	margin-left: 4%;
+	font-size: 105%;
+}
+#edlist3 {
+	margin-left: 4%;
+	font-size: 105%;
+}
+#edlist4 {
+	margin-left: 4%;
+	font-size: 105%;
+}
+#portfoliocaption3 {
+	color: #FFFFFF;
+	font-size: 115%;
+}
+#portfoliocaption2 {
+	color: #FFFFFF;
+	font-size: 115%;
+}
+#portfoliocaption1 {
+	color: #FFFFFF;
+	font-size: 115%;
+}
+#portfoliocaption {
+	color: #FFFFFF;
+	font-size: 115%;
+}
+
+th {
+	font-size: 112.5%;
+}
+#column1 {
+	width: 30%;
+}
+#column2 {
+	width: 40%
+}
+#table1 {
+	padding-left: 14.7%;
+}
+#table2 {
+	padding-left: 21%;
+}
+#contactpage {
+	background-color:#f2f2f2;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin: 0px;
+}
+/*end of portfolio based items*/
+h1 {
+	text-align:center;
+}
+h2 {
+	font-family: sans-serif;
+	font-size: 275%;
+	background-color:#D1D1D1;
+	padding: 45px 45px;
+	margin: 0px 0px 0px 0px;
+	color: #000000;
+	text-align:center;
+	letter-spacing: -1px;
+}
+h3 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	text-decoration: underline;
+	font-size: 185%;
+	background-color:#FFFFFF;
+	padding: 0px 8px 8px;
+	color: #000000;
+	text-align:center;
+	letter-spacing: 1px;
+}
+iframe { /*Portfolio page*/
+	margin-left: 31%;
+	border: 0px;
+}
+audio { /*Portfolio page*/
+	margin-left: 39.5%;
+}
+form{ /*Contact Page form*/
+	margin: 0 auto;
+	width: 700px;
+	padding: 1em;
+}
+input[type=text], select, textarea { /*Contact Page form*/
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+input[type=submit]{ /*Contact Page form*/
+  background-color: #1E90FF;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset]{ /*Contact Page form*/
+  background-color: #1E90FF;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover { /*Contact Page form*/
+  background-color: #585858;
+}
+input[type=reset]:hover { /*Contact Page form*/
+  background-color: #585858;
+}
+.container { /*Contact Page form*/
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#resumedownload { /*Resume page*/
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 22%; 
+	display: block;
+	text-decoration: none;
+	padding: 20px 40px;
+	text-align: center;
+}
+#careerobjective1 { /*Resume page*/
+	text-decoration: underline;
+	margin-left: 18.3%;
+	margin-right: auto;
+	width: 15%;
+	display: inline-block;
+	font-size: 100%;
+	padding: 2% 0%
+}
+#education1 { /*Resume page*/
+	text-decoration: underline;
+	margin: auto;
+	width: 11%;
+	display: inline-block;
+	font-size: 100%;
+	padding: 1% 0%	
+}
+#teachingexp1 { /*Resume page*/
+	text-decoration: underline;
+	margin: auto;
+	width: 17%;
+	display: inline-block;
+	font-size: 100%;
+		padding: 1% 0%
+}	
+#work1 { /*Resume Page*/
+	text-decoration: underline;
+	margin: auto;
+	width: 15%;
+	display: inline-block;
+	font-size: 100%;
+	padding: 1% 0%
+}	
+#orgcom1 { /*Resume Page*/
+	text-decoration: underline;
+	margin-right: auto;
+	margin-left: auto;
+	width: 15%;
+	display: inline-block;
+	font-size: 100%;
+	padding: 1% 0%
+}	
+#downloadable { /*styling for Resume Download link on Resume page*/
+	text-decoration: none;
+	padding: 0%;
+}
+table, th, td { /*Resume page table*/
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.25%;
+  padding-left: 4%;
+  text-align: left;
+}
+a {
+	text-decoration: none;
+}
+#button1 { /*Home page button for About Me link to page*/
+	background-color: #FFFFFF; 
+	border: 2px solid #000000;
+	color: #000000;
+	padding: 20px 40px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 100%; 
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 6%;
+}
+#button1:hover { /*Home page button for About Me link to page*/
+	background-color: #585858;
+	color: white;
+}
+#button2 { /*Home page button for Contact link to page*/
+	background-color: #FFFFFF; 
+	border: 2px solid #000000;
+	color: #000000;
+	padding: 20px 40px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 100%; 
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 6%;
+}
+#button2:hover { /*Home page button for Contact link to page*/
+	background-color: #585858;
+	color: white;
+}
+#button3 { /*Home page button for Skills link to page*/
+	background-color: #FFFFFF; 
+	border: 2px solid #000000;
+	color: #000000;
+	padding: 20px 40px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 100%; 
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 6%;
+}
+#button3:hover { /*Home page button for Skills link to page*/
+	background-color: #585858;
+	color: white;
+}
+#button4 { /*Home page button for Portfolio link to page*/
+	background-color: #FFFFFF; 
+	border: 2px solid #000000;
+	color: #000000;
+	padding: 20px 40px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 100%; 
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 6%;
+}
+#button4:hover { /*Home page button for Portfolio link to page*/
+	background-color: #585858;
+	color: white;
+}
+#button5 { /*About Me page button for Resume link to page*/
+	background-color: #FFFFFF; 
+	border: 2px solid #000000;
+	color: #000000;
+	padding: 20px 40px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 100%; 
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 6%;
+}
+#button5:hover { /*About Me page button for Resume link to page*/
+	background-color: #585858;
+	color: white;
+}
+#button6 { /*Resume page button for Resume link to document*/
+	background-color: #FFFFFF; 
+	border: 2px solid #000000;
+	color: #000000;
+	padding: 21px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 22%; 
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 14%;
+	text-decoration: none;
+	font-family: "Arial", sans-serif;
+	font-variant: normal;
+	font-weight: normal;
+	text-shadow: none;
+	letter-spacing: normal;
+}
+#button6:hover {
+	background-color: #585858;
+	color: white;
+}
+.fa { /*Social Media links at bottom of each page*/
+	padding: 15px;
+	font-size: 80px;
+	width: 67px;
+	text-align: center;
+	text-decoration: none;
+}
+.fa:hover {
+	opacity: 0.7;
+}
+.fa-facebook {
+	background: #3B5998;
+	color: #FFFFFF;
+}
+.fa-twitter {
+	background: #55ACEE;
+	color: #FFFFFF;
+}
+.fa-youtube {
+	background: #FF4343;
+	color: #FFFFFF;
+}
+.fa-linkedin {
+	background: #546FDB;
+	color: #FFFFFF;
+}
+#footer1 { /*style for line 1 on footer*/
+	font-size: 100%;
+	text-align: left;
+	margin: 0px;
+	padding: 8px;
+}
+#footer2 { /*style for line 2 on footer*/
+	font-size: 100%;
+	text-align: left;
+	margin: 0px;
+	padding: 8px;
+}
+#citations1 { /*Citation for home page*/
+	font-size: 100%;
+	font-style: italic;
+	text-align: center;
+	margin-left: 70px;
+	margin-right: 70px;
+	padding: 8px;
+}
+#citations2 { /*Citation for About Me page*/
+	font-size: 100%;
+	font-style: italic;
+	text-align: center;
+	margin: 0px;
+	padding: 8px;
+}
+#citations3 { /*Citation for Skills page*/
+	font-size: 100%;
+	font-style: italic;
+	text-align: center;
+	margin-left: 70px;
+	margin-right: 70px;
+	padding: 8px;
+}
+#citations4 { /*Citation for Portfolio page*/
+	font-size: 100%;
+	font-style: italic;
+	text-align: center;
+	margin-left: 70px;
+	margin-right: 70px;
+	padding: 8px;
+}
+#citations5 { /*Citation for Resume page*/
+	font-size: 100%;
+	font-style: italic;
+	text-align: center;
+	margin-left: 70px;
+	margin-right: 70px;
+	padding: 8px;
+}
+#citations6 { /*Citation for Contact page*/
+	font-size: 100%;
+	font-style: italic;
+	text-align: center;
+	margin: 0px;
+	padding: 8px;
+}
+footer { /*footer settings for every page*/
+	font-family: "Tahoma", Geneva, sans-serif;
+	color: #FFFFFF;
+	background-color:#000000;
+	padding: 0px 0px;
+	margin: 0px;
+}
